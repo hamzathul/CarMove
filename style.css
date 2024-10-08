@@ -133,3 +133,60 @@ nav.sticky {
 
 
 }
+
+/* Hero Page Section  */
+.hero-page{
+    margin-top: 200px;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+    
+
+}
+
+.hero-headlines{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 652px;
+}
+
+.hero-headlines h1{
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.hero-headlines p{
+    font-size: 20px;
+
+}
+
+.btn-hero{
+    width: 276px;
+    height: 62px;
+    font-size: 24px;
+
+}
+
+.download-buttons{
+    display: flex;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.download-buttons img{
+    transition: 0.3s ease-out all;
+}
+
+.download-buttons img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.hero-page-img{
+    max-width: 100%;
+    height: auto;
+}
